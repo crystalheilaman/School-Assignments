@@ -1,0 +1,321 @@
+/*Crystal Heilaman  
+CSS for periodic table*/
+
+body
+{
+width:90%;
+background-color:#fefefe;
+}
+
+p
+{
+font-size:13px;
+}
+
+a:link {text-decoration:none; color:inherit;}
+a:visited {text-decoration:none; color:inherit;}
+
+caption
+{
+Font-size:42px;
+text-align:center;
+font-weight:700;
+}
+
+table
+{
+border-style:none;
+border-collapse:collapse;
+font-family:sans-serif;
+}
+
+td
+{
+border-style:none;
+font-size:11px;
+text-align:center;
+width:80px;
+}
+
+th
+{
+font-weight:100;
+font-size:9px;
+width:35px;
+}
+
+td.symbol
+{
+font-size:28px;
+text-align:center;
+font-weight:800;
+text-shadow: 2px 2px #999999;
+}
+
+
+.arrowleft
+{
+font-size:28px;
+text-align:left;
+font-weight:800;
+}
+
+.arrowright
+{
+font-size:28px;
+text-align:right;
+font-weight:800;
+}
+
+.alignleft
+{
+text-align:left;
+}
+
+.alignright
+{
+text-align:right;
+}
+
+
+.center
+{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.alkalimetal
+{
+background-color:lightgray;
+}
+
+.alkalineearth
+{
+background-color:lightgreen;
+}
+
+.transitionalmetal
+{
+background-color:khaki;
+}
+
+.othermetal
+{
+background-color:pink;
+}
+
+.nonmetal
+{
+background-color:lightblue;
+}
+
+.noblegases
+{
+background-color:#FFCCB2;
+}
+
+.addborder
+{
+border-style:solid;
+border-color: black;
+border-width:2px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.liquid
+{
+color:blue;
+font-size:28px;
+text-align:center;
+font-weight:800;
+text-shadow: 2px 2px #999999;
+}
+
+.gas
+{
+color:red;
+font-size:28px;
+text-align:center;
+font-weight:800;
+text-shadow: 2px 2px #000000;
+}
+
+.sprepared
+{
+color:white;
+text-shadow: 2px 2px #000000;
+font-size:28px;
+text-align:center;
+font-weight:800;
+}
+
+.keyliquid
+{
+color:blue;
+font-size:11px;
+text-align:left;
+font-weight:800;
+}
+
+.keysprepared
+{
+color:gray;
+font-size:11px;
+text-align:left;
+font-weight:800;
+}
+
+.keygas
+{
+color:red;
+font-size:11px;
+text-align:left;
+font-weight:800;
+}
+
+.keysolid
+{
+color:black;
+font-size:11px;
+text-align:left;
+font-weight:800;
+}
+
+.keyalign
+{
+text-align:right;
+font-size:11px;
+}
+
+/*Display joke on hover*/
+#sodium
+{
+position:relative;
+}
+
+#sodium span
+{
+display:none;
+}
+
+#sodium a:hover span {display: block; position: absolute; top: 10px; left:300px; text-align: center;z-index:9000}
+
+
+#gold
+{
+position:relative;
+}
+
+#gold span
+{
+display:none;
+}
+
+#gold a:hover span {display: block; position: absolute; text-align: center;z-index:9000}
+
+
+#periodic
+{
+position:relative;
+}
+
+#periodic span
+{
+display:none;
+}
+
+#periodic a:hover span {display: block; position: absolute; text-align: center;z-index:9000}
+
+
+#argon
+{
+position:relative;
+}
+
+#argon span
+{
+display:none;
+}
+
+#argon a:hover span {display: block; position: absolute; top: 10px; right:300px; text-align: center; z-index:9000;}
+
+
+#barium
+{
+position:relative;
+}
+
+#barium span
+{
+display:none;
+}
+
+#barium a:hover span {display: block; position: absolute; text-align: center; z-index:9000;}
+
+
+
+#boron
+{
+position:relative;
+}
+
+#boron span
+{
+display:none;
+}
+
+#boron a:hover span {display: block; position: absolute; text-align: center; z-index:9000;} 	 	
+
+
+
+#noble
+{
+position:relative;
+}
+
+#noble span
+{
+display:none;
+}
+
+#noble a:hover span {display: block; position: absolute; text-align: center; z-index:9000;} 	 	
+
+
+#k
+{
+position:relative;
+}
+
+#k span
+{
+display:none;
+}
+
+#k a:hover span {display: block; position: absolute; text-align: center; z-index:9000;} 	 	
+
+
+#zn
+{
+position:relative;
+}
+
+#zn span
+{
+display:none;
+}
+
+#zn a:hover span {display: block; position: absolute; text-align: center; z-index:9000;} 	 	
+
+#ion
+{
+position:relative;
+}
+
+#ion span
+{
+display:none;
+}
+
+#ion a:hover span {display: block; position: absolute; text-align: center; z-index:9000;} 	 	

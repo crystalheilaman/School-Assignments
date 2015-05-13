@@ -1,0 +1,2101 @@
+<!DOCTYPE html>
+
+<!--Crystal Heilaman
+CIS 130-101
+Spring 2014 
+Mid-term project - Periodic table-->
+
+<html>
+<head>
+	<title>Periodic Table</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<table>
+<caption id="periodic"><a href="images/periodically.jpg">Periodic Table of the Elements<span><img src="images/periodically.jpg" alt="Periodic joke"/></a></caption>
+
+<!--table must be 10x18 -->
+
+<!--Element table template:
+
+<td  class="addborder">
+<table>
+<tr>
+<th class="alignleft">atomic number</th>
+<th class="alignright">atomic weight</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">atomic symbol</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Element Name</td>
+</tr>
+</table>
+</td>
+
+-->
+
+
+
+<!--row 1-->
+<tr>
+
+<td class="addborder">
+<table class="alkalimetal">
+<tr>
+<th class="alignleft">1</th>
+<th class="alignright">1.01</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">H</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Hydrogen</td>
+</tr>
+</table>
+</td>
+
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+<!--Top of Main Key-->
+
+<td>
+<table>
+<tr>
+<td class="alignleft">atomic number</td>
+<td class="alignright">atomic weight</td>
+</tr>
+<tr>
+<td class="arrowleft">↓</td>
+<td class="arrowright">↓</td>
+</tr>
+</table>
+</td>
+
+<!--end top of Main key-->
+
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+<td class="addborder">
+<table class="noblegases">
+<tr>
+<th class="alignleft">2</th>
+<th class="alignright">4.003</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">He</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Hydrogen</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<!--row 2-->
+<tr>
+
+<td class="addborder">
+<table class="alkalimetal">
+<tr>
+<th class="alignleft">3</th>
+<th class="alignright">6.94</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Li</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Lithium</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="alkalineearth">
+<tr>
+<th class="alignleft">4</th>
+<th class="alignright">9.01</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Be</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Beryllium</td>
+</tr>
+</table>
+</td>
+
+<td></td>
+
+<!--Main Key-->
+<td  class="addborder">
+<table>
+<tr>
+<th class="alignleft">14</th>
+<th class="alignright">28.09</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol" id="ion"><a href="images/ion.jpg">Si<span><img src="images/ion.jpg" alt="Ion Joke"/></span></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Silicon</td>
+</tr>
+</table>
+</td>
+<!--end Main Key-->
+
+<!--side of Main Key-->
+
+<td>
+<table>
+<tr>
+<td class="symbol">←</td>
+<td>Symbol:</td>
+</tr>
+</table>
+</td>
+
+<td colspan="2">
+<table>
+
+<tr>
+<td class="keysolid">
+black
+</td>
+<td class="keyalign">
+solid
+</td>
+</tr>
+
+<tr>
+<td class="keyliquid">
+blue
+</td>
+<td class="keyalign">
+liquid
+</td>
+</tr>
+
+<tr>
+<td class="keygas">
+red
+</td>
+<td class="keyalign">
+gas
+</td>
+</tr>
+
+<tr>
+<td class="keysprepared">
+white&nbsp;
+</td>
+<td class="keyalign">
+&nbsp;&nbsp;synthetic
+</td>
+</tr>
+</table>
+</td>
+
+
+
+<!--End side of Main Key-->
+
+<td></td>
+
+
+<!--Color Key-->
+<td rowspan="2">
+<table>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="alkalimetal">&nbsp;</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="alkalineearth">&nbsp;</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="transitionalmetal">&nbsp;</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="othermetal">&nbsp;</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="nonmetal">&nbsp;</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td class="noblegases">&nbsp;</td>
+</tr>
+
+</table>
+</td>
+
+<td colspan="2" rowspan="2" class="alignleft" id="noble">
+<p>alkali metals
+<br/>
+alkaline earth metals
+<br/>
+transitional metals
+<br/>
+other metals
+<br/>
+nonmetals
+<br/>
+<a href="images/noblegas.png">noble gases<span><img src="images/noblegas.png" alt="Noble Gas Joke"/></span></a></p>
+</td>
+
+<!--end color key-->
+
+
+<td></td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">5</th>
+<th class="alignright">10.81</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol" id="boron"><a href="images/boron.jpg">B<span><img src="images/boron.jpg" alt="boron joke."/></span></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Boron</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">6</th>
+<th class="alignright">12.01</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">C</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Carbon</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">7</th>
+<th class="alignright">14.01</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">N</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Nitrogen</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">8</th>
+<th class="alignright">15.999</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">O</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Oxygen</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">9</th>
+<th class="alignright">18.998</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">F</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Fluorine</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="noblegases">
+<tr>
+<th class="alignleft">10</th>
+<th class="alignright">20.18</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">Ne</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Neon</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<!--row 3-->
+<tr>
+
+<td class="addborder">
+<table class="alkalimetal">
+<tr>
+<th class="alignleft">11</th>
+<th class="alignright">22.99</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol" id="sodium"><a href="images/najoke.jpg">Na<span><img src="images/najoke.jpg" alt="Want to hear a Sodium Joke?  Na."/></span></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Sodium</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="alkalineearth">
+<tr>
+<th class="alignleft">12</th>
+<th class="alignright">24.31</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Mg</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Magnesium</td>
+</tr>
+</table>
+</td>
+
+<td></td>
+
+<!--Bottom of Key-->
+<td>
+<table>
+<tr>
+<td class="symbol">↑</td>
+</tr>
+<tr>
+<td>Name</td>
+</tr>
+</table>
+
+</td>
+
+<!--End Bottom of Key-->
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+
+
+
+<td class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">13</th>
+<th class="alignright">26.98</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Al</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Aluminum</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">14</th>
+<th class="alignright">28.09</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Si</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Silicon</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">15</th>
+<th class="alignright">30.97</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">P</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Phosphorus</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">16</th>
+<th class="alignright">32.06</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">S</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Sulfur</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">17</th>
+<th class="alignright">35.45</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">Cl</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Chlorine</td>
+</tr>
+</table>
+</td>
+
+<td class="addborder">
+<table class="noblegases">
+<tr>
+<th class="alignleft">18</th>
+<th class="alignright">39.95</th>
+</tr>
+<tr>
+<td colspan="2" class="gas" id="argon"><a href="images/argon.jpg">Ar<span><img src="images/argon.jpg" alt="Argon joke."/></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Argon</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<!--row 4-->
+<tr>
+
+<td  class="addborder">
+<table class="alkalimetal">
+<tr>
+<th class="alignleft">19</th>
+<th class="alignright">39.10</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol" id="k"><a href="images/potassium.jpg">K<span><img src="images/potassium.jpg" alt="Potassium Joke."></span></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Potassium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="alkalineearth">
+<tr>
+<th class="alignleft">20</th>
+<th class="alignright">40.08</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ca</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Calcium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">21</th>
+<th class="alignright">44.96</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Sc</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Strontium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">22</th>
+<th class="alignright">47.90</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ti</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Titanium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">23</th>
+<th class="alignright">50.94</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">V</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Vanadium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">24</th>
+<th class="alignright">51.996</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Cr</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Chromium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">25</th>
+<th class="alignright">54.94</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Mn</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Manganese</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">26</th>
+<th class="alignright">55.85</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Fe</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Iron</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">27</th>
+<th class="alignright">58.93</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Co</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Cobalt</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">28</th>
+<th class="alignright">58.70</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ni</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Nickel</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">29</th>
+<th class="alignright">63.55</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Cu</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Copper</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">30</th>
+<th class="alignright">65.37</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol" id="zn"><a href="images/zinc.jpg">Zn<span><img src="images/zinc.jpg" alt="Zinc Joke"/></span></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Zinc</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">31</th>
+<th class="alignright">69.72</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ga</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Gallium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">32</th>
+<th class="alignright">72.59</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ge</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Germanium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">33</th>
+<th class="alignright">74.92</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">As</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Arsenic</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">34</th>
+<th class="alignright">78.96</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Se</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Selenium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">35</th>
+<th class="alignright">79.90</th>
+</tr>
+<tr>
+<td colspan="2" class="liquid">Br</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Bromine</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="noblegases">
+<tr>
+<th class="alignleft">36</th>
+<th class="alignright">83.80</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">Kr</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Krypton</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<!--row 5-->
+<tr>
+
+<td  class="addborder">
+<table class="alkalimetal">
+<tr>
+<th class="alignleft">37</th>
+<th class="alignright">85.47</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Rb</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Rubidium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="alkalineearth">
+<tr>
+<th class="alignleft">38</th>
+<th class="alignright">87.62</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Sr</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Strontium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">39</th>
+<th class="alignright">88.91</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Y</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Yttrium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">40</th>
+<th class="alignright">91.22</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Zr</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Zirconium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">41</th>
+<th class="alignright">92.91</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Nb</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Niobium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">42</th>
+<th class="alignright">95.94</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Mo</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Molybdenum</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">43</th>
+<th class="alignright">(98)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Tc</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Technetium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">44</th>
+<th class="alignright">101.07</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ru</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Ruthenium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">45</th>
+<th class="alignright">102.91</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Rh</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Rhodium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">46</th>
+<th class="alignright">106.40</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Pd</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Palladium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">47</th>
+<th class="alignright">107.87</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ag</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Silver</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">48</th>
+<th class="alignright">112.41</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Cd</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Cadmium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">49</th>
+<th class="alignright">114.82</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">In</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Indium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">50</th>
+<th class="alignright">118.69</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Sn</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Tin</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">51</th>
+<th class="alignright">121.75</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Sb</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Antimony</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">52</th>
+<th class="alignright">127.60</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Te</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Tellurium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">53</th>
+<th class="alignright">126.90</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">I</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Iodine</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="noblegases">
+<tr>
+<th class="alignleft">54</th>
+<th class="alignright">131.30</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">Xe</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Xenon</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<!--row 6-->
+<tr>
+
+<td  class="addborder">
+<table class="alkalimetal">
+<tr>
+<th class="alignleft">55</th>
+<th class="alignright">85.47</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Cs</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Cesium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="alkalineearth">
+<tr>
+<th class="alignleft">56</th>
+<th class="alignright">137.33</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol" id="barium"><a href="images/barium.jpg">Ba<span><img src="images/barium.jpg" alt="Barium Joke."/></span></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Barium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">57</th>
+<th class="alignright">138.91</th>
+</tr>
+<tr>
+<td class="symbol">La</td><td>►</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Lanthanum</td>
+</tr>
+</table>
+</td>
+
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">72</th>
+<th class="alignright">178.49</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Hf</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Hafnium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">73</th>
+<th class="alignright">180.95</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ta</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Tantalum</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">74</th>
+<th class="alignright">183.85</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">W</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Tungsten</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">75</th>
+<th class="alignright">186.21</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Re</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Rhenium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">76</th>
+<th class="alignright">190.20</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Os</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Osmium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">77</th>
+<th class="alignright">192.22</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ir</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Iridium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">78</th>
+<th class="alignright">195.09</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Pt</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Platinum</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">79</th>
+<th class="alignright">196.97</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol" id="gold"><a href="images/gold.jpg">Au<span><img src="images/gold.jpg" alt="Gold joke."/></span></a></td>
+</tr>
+<tr>
+<td colspan="2" class="center">Gold</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">80</th>
+<th class="alignright">200.59</th>
+</tr>
+<tr>
+<td colspan="2" class="liquid">Hg</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Mercury</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">81</th>
+<th class="alignright">204.37</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Tl</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Thallium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">82</th>
+<th class="alignright">207.19</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Pb</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Lead</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">83</th>
+<th class="alignright">208.98</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Bi</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Bismuth</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">84</th>
+<th class="alignright">(209)</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Po</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Polonium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">85</th>
+<th class="alignright">(210)</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">At</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Astatine</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="noblegases">
+<tr>
+<th class="alignleft">86</th>
+<th class="alignright">(222)</th>
+</tr>
+<tr>
+<td colspan="2" class="gas">Rn</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Radon</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<!--row 7-->
+<tr>
+
+<td  class="addborder">
+<table class="alkalimetal">
+<tr>
+<th class="alignleft">87</th>
+<th class="alignright">(223)</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Fr</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Francium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="alkalineearth">
+<tr>
+<th class="alignleft">88</th>
+<th class="alignright">226.03</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ra</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Radium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">89</th>
+<th class="alignright">227.03</th>
+</tr>
+<tr>
+<td rowspan="2" class="symbol">Ac<td class="arrows">►</td><tr><td class="arrows">►</td></tr>
+<tr>
+<td colspan="2" class="center">Actinium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">104</th>
+<th class="alignright">(261)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Rf</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Rutherfordium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">105</th>
+<th class="alignright">(262)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Ha</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Hahnium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">106</th>
+<th class="alignright">(266)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Sg</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Seaborgium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">107</th>
+<th class="alignright">(262)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Bh</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Bohrium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">108</th>
+<th class="alignright">(265)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Hs</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Hassium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">109</th>
+<th class="alignright">(266)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Mt</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Meitnerium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">110</th>
+<th class="alignright">281</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Ds</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Darmstadtium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">111</th>
+<th class="alignright">281</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Rg</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Roentgenium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">112</th>
+<th class="alignright">285</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Cn</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Copernicium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">113</th>
+<th class="alignright">286</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Uut</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Ununtrium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">114</th>
+<th class="alignright">289</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Fl</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Flerovium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">115</th>
+<th class="alignright">289</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Uup</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Ununpentium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="othermetal">
+<tr>
+<th class="alignleft">116</th>
+<th class="alignright">293</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Lv</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Livermorium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="nonmetal">
+<tr>
+<th class="alignleft">117</th>
+<th class="alignright">294</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Uus</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Ununseptium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="noblegases">
+<tr>
+<th class="alignleft">118</th>
+<th class="alignright">294</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Uuo</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Ununoctium</td>
+</tr>
+</table>
+</td>
+
+</tr>
+
+<!--row 8 BLANK ROW-->
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+<!--row 9 - FIRST ROW OF 'CUTOUT'-->
+<tr>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+<!--First three cells are blank-->
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">58</th>
+<th class="alignright">140.12</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ce</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Cerium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">59</th>
+<th class="alignright">140.91</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Pr</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Praseodymium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">60</th>
+<th class="alignright">144.24</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Nd</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Neodymium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">61</th>
+<th class="alignright">(145)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Pm</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Promethium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">62</th>
+<th class="alignright">150.40</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Sm</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Samarium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">63</th>
+<th class="alignright">151.96</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Eu</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Europium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">64</th>
+<th class="alignright">157.25</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Gd</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Gadolinium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">65</th>
+<th class="alignright">158.93</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Tb</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Terbium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">66</th>
+<th class="alignright">162.50</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Dy</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Dysprosium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">67</th>
+<th class="alignright">164.93</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Ho</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Holmium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">68</th>
+<th class="alignright">167.26</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Er</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Erbium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">69</th>
+<th class="alignright">168.93</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Tm</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Thulium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">70</th>
+<th class="alignright">173.04</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Yb</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Ytterbium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">71</th>
+<th class="alignright">174.97</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Lu</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Lutetium</td>
+</tr>
+</table>
+</td>
+
+<!--Blank cells-->
+<td></td>
+
+</tr>
+
+<!--row 10 - SECOND ROW OF 'CUTOUT'-->
+<tr>
+
+<td></td>
+
+<td></td>
+
+<td></td>
+<!--first three cells are blank-->
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">90</th>
+<th class="alignright">232.04</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Th</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Thorium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">91</th>
+<th class="alignright">231.04</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">Pa</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Protactinium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">92</th>
+<th class="alignright">238.03</th>
+</tr>
+<tr>
+<td colspan="2" class="symbol">U</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Uranium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">93</th>
+<th class="alignright">237.05</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Np</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Naptunium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">94</th>
+<th class="alignright">(244)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Pu</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Plutonium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">95</th>
+<th class="alignright">(243)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Am</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Americium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">96</th>
+<th class="alignright">(247)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Cm</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Curium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">97</th>
+<th class="alignright">(247)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Bk</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Berkelium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">98</th>
+<th class="alignright">(251)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Cf</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Californium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">99</th>
+<th class="alignright">(251)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Es</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Einsteinium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">100</th>
+<th class="alignright">(257)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Fm</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Fermium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">101</th>
+<th class="alignright">(260)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Md</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Mendelevium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">102</th>
+<th class="alignright">(259)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">No</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Nobelium</td>
+</tr>
+</table>
+</td>
+
+<td  class="addborder">
+<table class="transitionalmetal">
+<tr>
+<th class="alignleft">103</th>
+<th class="alignright">(262)</th>
+</tr>
+<tr>
+<td colspan="2" class="sprepared">Lr</td>
+</tr>
+<tr>
+<td colspan="2" class="center">Lawrencium</td>
+</tr>
+</table>
+</td>
+
+<!--Last cell is blank-->
+<td></td>
+
+</tr>
+
+</table>
+
+
+</body>
+</html>

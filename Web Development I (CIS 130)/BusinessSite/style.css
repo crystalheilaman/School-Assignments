@@ -1,0 +1,249 @@
+/* Style sheet for Final Project*/
+
+/*use http://blog.crazyegg.com/2013/04/17/color-palettes-financial/ for color palattes.*/
+
+/*CSS has been validated prior to form being created*/
+
+body
+{
+font-family: "Lucida Sans Unicode", arial, sans-serif;
+background-color:#cdcdcd;
+margin:auto;
+width: 72%;
+min-width:600px;
+}
+
+div
+{
+/*border-color: black;
+border-style:solid;*/
+}
+
+h2
+{
+font-size: 20px;
+font-weight:500;
+color:#193964;
+}
+
+caption
+{
+font-size: 20px;
+font-weight:500;
+color:#193964;
+}
+
+ul
+{
+list-style-type:none;
+}
+
+ul.menu
+{
+float:right;
+width:100%;
+padding:0;
+margin:0;
+list-style-type:none;
+height:30px;
+display:inline;
+}
+
+footer
+{
+font-weight:lighter;
+font-style:italic;
+font-size: 80%;
+text-align:center;
+opacity:.75;
+}
+
+a
+{
+color:#295fa6;
+text-decoration: none;
+}
+
+td
+{
+border: none;
+padding: 10px;
+}
+
+th
+{
+display:none
+}
+
+form
+{
+background-color:#f0f0f0;
+
+}
+
+fieldset
+{
+background-color:#f0f0f0;
+border-color:#193964;
+width:50%;
+margin:auto;
+;
+}
+
+label
+{
+float: left;
+clear: left;
+display: block;
+text-align:right;
+padding-right:10px;
+margin-top:5px;
+width: 100px;
+color:#193964;
+}
+
+input, textarea
+{
+margin-top: 10px;
+}
+
+a:visited
+{
+color:#2a95bf;
+text-decoration: none;
+}
+
+a.menu:link
+{
+text-decoration: none;
+color: white;
+}
+
+a.menu:hover 
+{
+background-color:#2a95bf;
+}
+
+a.menu:visited
+{
+color:#cdcdcd;
+}
+
+#currentpage
+{
+color:#cdcdcd;
+background-color:#bf0413;
+}
+
+#rightcolumn
+{
+margin:auto;
+background:white;
+}
+
+#navigator
+{
+height:30px;
+background-color:#193964;
+margin:auto;
+clear:both;
+}
+
+#title
+{
+background-color:#ffffff;
+font-size:30px;
+font-family: serif;
+padding:20px;
+}
+
+#content
+{
+margin-top:60px;
+}
+
+#wrapper
+{
+border: 1px solid #565656;
+padding: 40px;
+background-color:white;
+box-shadow: 10px 25px 20px 10px #565656;
+}
+
+#logo
+{
+height:120px;
+}
+
+#staff
+{
+opacity: .88;
+float: right;
+margin-right:0;
+margin-top:30px;
+}
+
+#button
+{
+width:140px;
+}
+
+.partners
+{
+width:90%;
+padding: 15px;
+margin:auto;
+}
+
+.floatright
+{
+float:right;
+padding-left:10px;
+padding-bottom:  10px;
+color:black;
+}
+
+.floatleft
+{
+float:left;
+padding-right:10px;
+padding-bottom:  10px;
+}
+
+.menu
+{
+float:right;
+width:6em;
+text-decoration:none;
+color:white;
+background-color:#193964;
+padding:0.2em 0.6em;
+border-left:1px solid #cdcdcd;
+height:24px;
+font-weight:normal;
+}
+
+.altbanner
+{
+float:right;
+padding-bottom:10px;
+height:135px;
+}
+
+.comments
+{
+width:200px;
+padding:30px;
+font-style:italic;
+font-size:13px;
+color:#595959;
+opacity:.8;
+}
+
+a.emaillink
+{
+color:#565656;
+
+font-family: "Lucida Sans Unicode", arial, sans-serif;
+
+}

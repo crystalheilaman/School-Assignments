@@ -1,0 +1,50 @@
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function() {
+	$("#menu h4:not(:first)").toggle(
+		function() {
+		    $(this).next().show();
+	    },
+	    function() {
+	        $(this).next().hide();
+	    }
+    ); // end toggle
+});
+</script> 
+    <div>
+
+    
+    <ul id="menu">   
+    <h4><a href="http://cis131.net/ch0224033/index.php">Main Page</a></h4>
+    <h4><a>Assignments</a></h4>
+    <section class="hidden">
+    <li><a href="http://cis131.net/ch0224033/CSS-Review/CSS-Review.php">Assignment 1</a></li>
+    <li><a href="http://cis131.net/ch0224033/Basic-Java-Script/Basic-Java-Script.php">Assignment 2</a></li>
+    <li><a href="http://cis131.net/ch0224033/JavaScriptFunctions/JavaScriptFunctions.php">Assignment 3</a></li>
+    <li><a href="http://cis131.net/ch0224033/JavaScript-Conditional-Statements/JavaScript-Conditional-Statements.php">Assignment 4</a></li>
+    <li><a href="http://cis131.net/ch0224033/JavaScript-Array-Style-Objects/JavaScript-Array-Style-Objects.php">Assignment 5</a></li>
+    <li><a href="http://cis131.net/ch0224033/JavaScript-Form-Validation/JavaScript-Form-Validation.php">Assignment 6</a></li>
+    <li><a href="http://cis131.net/ch0224033/PHP-Includes/PHP-Includes.php">Assignment 7</a></li>
+    <li><a href="http://cis131.net/ch0224033/Quiz/Quiz.php">Assignment 8</a></li>
+    <li><a href="http://cis131.net/ch0224033/Address-Book/Address-Book.php">Assignment 9</a></li>
+    <li><a href="http://cis131.net/ch0224033/ShowHide-Contact-List/ShowHide-Contact-List.php">Assignment 10</a></li>
+    <li><a href="http://cis131.net/ch0224033/jQuery-Effects/jQuery-Effects.php">Assignment 11</a></li> 
+    <li><a href="http://cis131.net/ch0224033/DOM-manipulation/DOM-manipulation.php">Assignment 12</a></li>
+    <li><a href="http://cis131.net/ch0224033/Plugins/Plugins.php">Assignment 13</a></li>
+
+    </section>
+    <h4><a>Projects</a></h4>
+    <span class="hidden">
+    <li><a href="http://cis131.net/ch0224033/Midterm/Midterm.html">Midterm</a></li>      
+    </span>
+    
+    <h4><a>Exams</a></h4>
+    <section class="hidden">
+    <li><a href="http://cis131.net/ch0224033/Exam1/Exam1.php">Exam 1</a></li> 
+    <li><a href="http://cis131.net/ch0224033/Exam2/Exam2.php">Exam 2</a></li> 
+    <li><a href="http://cis131.net/ch0224033/Exam3/Exam3.php">Exam 3</a></li> 
+    </section> 
+    </ul>
+	
+    
+    </div>

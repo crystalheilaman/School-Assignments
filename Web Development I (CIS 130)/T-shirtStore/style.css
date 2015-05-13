@@ -1,0 +1,198 @@
+/*
+Name: Crystal Heilaman
+Date: 04/03/14
+Class: CIS 130-101
+File: style.css
+Description:  Style sheet for T-shirt store. 
+*/
+
+body
+{
+background-image:url('images/background.jpg');
+color: #B88A00;
+}
+
+div
+{
+/*background-color: #7A997A;
+opacity: .75;*/
+color: #B88A00;
+border-style: none;
+border-radius: 15px;
+word-break: break-word;
+}
+
+h1
+{
+margin: 20px;
+margin-bottom: 25px;
+}
+
+img
+{
+border-radius:10px;
+}
+
+img.product
+{
+width:200px;
+border-style: solid;
+border-width:2px;
+border-color:#030200;
+box-shadow: 5px 5px 2px #030200;
+float:right;
+margin:2px;
+}
+
+ul
+{
+list-style-type:none;
+text-decoration:none;
+}
+
+nav
+{
+margin-top:50px;
+}
+
+nav ul
+{
+list-style-type:none;
+text-decoration:none;
+}
+
+footer
+{
+background-color:#211902;
+border-radius:15px;
+opacity: .85;
+box-shadow: 5px 5px 2px #030200;
+margin-top: 20px;
+text-align:center;
+padding:10px;
+}
+
+table
+{
+margin:auto;
+}
+
+td img
+{
+width:200px;
+margin-left:60px;
+margin-bottom:50px;
+margin-right:10px;
+border-style: solid;
+border-width:2px;
+border-color:#030200;
+box-shadow: 5px 5px 2px #030200;
+}
+
+td
+{
+width:400px;
+padding-right:30px;
+padding-top:10px;
+}
+
+a:link
+{
+text-decoration:none;
+color:#B88A00;
+}
+
+a:visited
+{
+color:#73694D;
+}
+
+a:hover
+{
+color:#F1F0ED;
+
+}
+
+.squares
+{
+width:50px;
+margin-left: 12px;
+position: relative;
+top:200px;
+box-shadow: 5px 5px 2px #030200;
+}
+
+#wrapper
+{
+width: 80%;
+margin: auto;
+min-width: 850px;
+opacity: none;
+}
+
+#leftcolumn
+{
+float:left;
+width: 150px;
+height: 650px;
+background-color:#211902;
+border-radius:15px;
+opacity: .85;
+box-shadow: 5px 5px 2px #030200;
+
+}
+
+#rightcolumn
+{
+margin-left:170px;
+}
+
+#top
+{
+background-color:#211902;
+opacity: .85;
+border-radius: 15px;
+margin-bottom:20px;
+box-shadow: 5px 5px 2px #030200;
+}
+
+#content
+{
+background-color: #211902;
+opacity: .85;
+box-shadow: 5px 5px 2px #030200;
+height: 550px;
+padding:20px;
+}
+
+#mailer
+{
+width:130px;
+margin-left:10px;
+border-style: solid;
+border-width:1px;
+border-color:#030200;
+box-shadow: 5px 5px 2px #030200;
+border-radius: 0;
+Position:relative;
+top:350px;
+}
+
+#cart
+{
+float:right;
+height: 150px;
+}
+
+#home
+{
+position: relative;
+left: 300px;
+font-size: 50px;
+vertical-align: bottom;
+}
+
+#constructionimg
+{
+margin-left: 220px;
+}

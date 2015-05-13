@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;    
+    position: relative;
+	min-width: 800px;
+}
+article, aside, h1, h2, ul, p, a {
+	margin: 0;
+	padding: 1px;
+	
+}
+aside {
+	background-color:#E6E6E6;
+	width: 240px;
+	float: left;
+	position: absolute;
+	border-radius: 0px 50px 50px 0px;
+    opacity: 0.85;
+	filter: alpha(opacity=85);
+	color:black;
+	border: 2px solid #B2CEE8 ;
+	padding: 10px;  
+	margin-left: -30px;	
+}
+aside a {
+	
+	display: block;
+	font-size:16px;	
+	padding-bottom: .5em;
+	color: black;
+	text-shadow: none;
+}
+aside a:hover {
+	font-size:105%;	
+	color:black;
+	text-shadow: 1px 1px 1px white ;
+}
+aside a:visited {
+	color:black;
+}
+aside h2{
+	color:#005DB3;
+	text-shadow: none;
+}
+
+article {
+	width: 440px;
+	margin-left: 260px;
+}
+
+h1 {
+	padding-bottom: .25em;
+	color: blue;
+}
+h2 {
+	font-size: 120%;
+	padding: .5em 0 .25em;
+}
+p {
+	padding-bottom: .5em;
+}
+
+.selected
+{ 
+color: blue;
+font-size: 150%;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<!--
+Name: Crystal Heilaman
+File: FinalProject_HeilamanCrystal
+Date: 04/22/14
+Description: Site must be 7-10 pages
+-->
+
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+<title>Submit Inquiry: Winter, Edwards, and Boyd LLC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<header id="title">
+	<a href="index.html"><img src="images/logobanner2.png" alt="WEB Logo banner" id="logo"/></a>
+
+	<!--Possibly add Login/fb etc-->
+	</header>
+	
+	<div id="navigator">
+	
+	<nav>
+	<ul class="menu">
+	<li><a href="index.html" class="menu">Home</a></li>
+	<li><a href="aboutus.html" class="menu">About Us</a></li>
+	<li><a href="services.html" class="menu">Services</a></li>
+	<li><a href="contact.html" class="menu">Contact</a></li>
+	</ul>
+	</nav>
+	
+	</div><!--end leftcolum-->
+
+	<div id="rightcolumn">
+		
+		<div id="content">
+		
+		
+		<fieldset>		
+		<legend>Please enter your information to submit an inquiry:</legend>
+		<form action="mailto:inquiry@WEBMail.org" autocomplete="on" method="post" name="inquiryform">
+		<label for="name">Name: </label>
+		<input type="text" name="name" id="name" autofocus="autofocus" required="required" tabindex="1"> <br/>
+		<label for="address">Address: </label>
+		<input type="text" name="address" id="address" required="required" tabindex="2"><br/>
+		<label for="city">City: </label>
+		<input type="text" name="city" id="city" required="required" tabindex="3"><br/>
+		<label for="state">State: </label>
+		<input type="text" name="state"  id="state" required="required" tabindex="4" maxlength="2"><br/>
+		<label for="zip">Zip: </label>
+		<input type="text" name="zip"  id="zip" required="required" tabindex="5" maxlength="5"><br/>
+		<label for="phone">Phone: </label>
+		<input type="text" name="phone"  id="phone" required="required" tabindex="6"><br/>
+		<label for="email">Email: </label>
+		<input type="text" name="email" id="email" required="required" tabindex="7"><br/><br/>
+
+		How would you like to be contacted?<br/>
+		Email <input type="radio" name="contact" value="email" required="required" tabindex="8">
+		Phone <input type="radio" name="contact" value="phone" required="required" tabindex="9">		
+		
+		<br/><br/>
+		
+		What service are you inquiring about (Select)? <br/>
+		<input type="checkbox" name="accounting" value="accounting" tabindex="10"> Accounting and Bookkeeping<br/>
+		<input type="checkbox" name="investment" value="investment" tabindex="11"> Investment Management<br/>
+		<input type="checkbox" name="tax" value="tax" tabindex="12"> Tax Filing<br/><br/>
+
+		Additional Comments: <br/><textarea name="comments" tabindex="13" rows="7" cols="60"></textarea><br/>
+		<input type="reset" name="reset" >
+		<input type="submit" name="submit" tabindex="14">
+		</form>		
+		</fieldset>
+		</div> <!--end content-->
+	
+	<hr/>
+	<footer>
+	Created by Crystal Heilaman, CIS 130-Spring 2014
+	</footer>
+	
+	</div><!--end right column"-->
+	
+</div><!--end wrapper-->
+
+</body>
+
+</html>

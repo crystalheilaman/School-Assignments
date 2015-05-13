@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<!--Crystal Heilaman
+CIS 131 - Fall 2014
+Midterm Project - Great Race!-->
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<title>Midterm Project - The Great Race</title>
+
+
+<script>
+<!--
+//variables
+var m = 10;
+var l = 10;
+
+//Function to change stoplight to green from red
+//This function will start the timer... this timer will
+//call a function at an interval to move images. 
+
+function startRace()
+{
+	restart();
+	
+	//change stoplight image to green
+	document.getElementById("stopLight").src="images/go.png";
+	
+	//start timer
+	clock=setInterval(function(){babySteps()}, 400);
+	
+	
+}//end startRace
+
+//Function that moves images an amount that is based on random number.
+
+function babySteps()
+{
+	//generate random numbers
+	var isMove = Math.floor(Math.random()*2);
+	var moveAmount = Math.floor(Math.random()*100);
+
+
+	//only move one image by the random amount.
+	if (isMove == 1)
+	{
+		//move mario
+		m += moveAmount;
+		document.getElementById("mario").style.left = m +"px";
+	}
+	else
+	{
+		//move luigi
+		l += moveAmount;
+		document.getElementById("luigi").style.left = l +"px";
+	}
+	
+	//determine game over when image reaches finish line - 
+	
+	if (m> 1000)
+	{
+		declareWinner("m");
+		//make timer stop
+		clearInterval(clock);
+	}
+	
+	if (l>1000)
+	{
+		declareWinner("l");
+		//make timer stop
+		clearInterval(clock);
+	}
+	
+}//end babySteps
+
+//Delcare winner function - clear all and display winner picture
+function declareWinner(winner)
+{	
+	if (winner == "m")
+	{
+		document.getElementById("marioWins").style.display="block";
+		//make timer stop
+		clearInterval(clock);
+		//hide images
+		document.getElementById("mario").style.visibility="hidden";
+		document.getElementById("luigi").style.visibility="hidden";
+		document.getElementById("finish").style.visibility="hidden";
+		document.getElementById("stopLight").style.visibility="hidden";	
+	}
+	
+	if (winner == "l")
+	{		
+		document.getElementById("luigiWins").style.display="block";
+		//make timer stop
+		clearInterval(clock);
+		//hide images
+		document.getElementById("mario").style.visibility="hidden";
+		document.getElementById("luigi").style.visibility="hidden";
+		document.getElementById("finish").style.visibility="hidden";
+		document.getElementById("stopLight").style.visibility="hidden";		
+	}		
+	
+	
+}//end declareWinner
+
+//Function to load everything to defaults.
+function restart()
+{	
+	//reset distance variables
+	m = 10;
+	l = 10;
+	//reset positions and visibility of images
+	//Mario and Luigi
+	document.getElementById("luigi").style.visibility="visible";
+	document.getElementById("mario").style.visibility="visible";
+	
+	document.getElementById("luigi").style.left = m +"px";
+	document.getElementById("mario").style.left = l +"px";
+	
+	//Rest stopLight image
+	document.getElementById("stopLight").style.visibility="visible";
+	document.getElementById("stopLight").src="images/start.png";
+	
+	//display finish line
+	document.getElementById("finish").style.visibility="visible";
+	//Hide winner image
+	document.getElementById("luigiWins").style.display="none";
+	document.getElementById("marioWins").style.display="none";
+
+}//end restart
+
+
+-->
+</script>
+
+</head>
+
+
+
+<body style="background-image:url(images/background.png); background-repeat: no-repeat;background-position: top center; background-size:cover;">
+
+<a href="http://www.cis131.net/ch0224033/"><img src="images/home.png" alt="Home button" title="Click here to return home."/></a>
+
+<div>
+<img src="images/luigiwins.png" alt="Luigi wins!" id="luigiWins" style="display:none; margin:auto;" onClick="restart()"/>
+<img src="images/mariowins.png" alt="Mario wins!" id="marioWins" style="display:none; margin:auto;" onClick="restart()"/>
+</div>
+
+
+<div style="position:fixed; top:10px; right:70px;" >
+<img src="images/start.png" alt="Start" id="stopLight" title="Click here to start the race!" onClick="startRace()" />
+</div>
+
+<div>
+<img src="images/finish.png" alt="Finish Line" id="finish" style="position:fixed; bottom:10px; left: 1000px;"/>
+</div>
+
+<div >
+<img src="images/Luigi.png" alt="Luigi" id="luigi" style="position:fixed; bottom:93px;" name="element"/>
+<img src="images/mario.png" alt="Mario" id="mario" style="position:fixed; bottom:53px;" name="element"/>
+</div>
+
+
+
+</body>
+</html>
